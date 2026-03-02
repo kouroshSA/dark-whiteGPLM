@@ -1,0 +1,24 @@
+# Model checkpoints (too large for GitHub)
+out/ckpt.pt
+dark_40ki_standard/ckpt.pt
+*.pt
+
+# Large data files
+data/*/input.txt
+data/*/train.bin
+data/*/val.bin
+data/*/*.fasta
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Output files
+*_output.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Wandb logs
+wandb/
