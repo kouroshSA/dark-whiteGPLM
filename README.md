@@ -4,13 +4,7 @@ Character-level protein language models trained on dark and annotated (white) pr
 
 ## Overview
 
-This repository provides tools for training and running inference with GPT-2-based protein language models on three proteome datasets derived from the LA4SR pipeline (~222M algal proteins):
-
-- **Dark proteome** (`char_dark`): Proteins with no Pfam-A domain annotation (~95.5% of the algal proteome)
-- **Annotated proteome** (`char_white`): Proteins with at least one Pfam-A domain hit
-- **Combined algae** (`char_algae`): The full sampled algal proteome
-
-The models use character-level tokenization (one token per amino acid) and are trained from scratch using a GPT-2 small architecture (12 layers, 12 heads, 768 embedding dimensions).
+To be provided
 
 ## Installation
 
