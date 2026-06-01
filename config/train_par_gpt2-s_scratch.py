@@ -1,6 +1,3 @@
-# train a miniature character-level shakespeare model
-# good for debugging and playing on macbooks and such
-
 out_dir = 'out_dark_40ki_standard'
 eval_interval = 1000 # keep frequent because we'll overfit
 log_interval = 10 # don't print too too often
