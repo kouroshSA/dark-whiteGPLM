@@ -37,9 +37,3 @@ warmup_iters = 200 # not super necessary potentially
 # on macbook also add
 # device = 'cpu'  # run on cpu only
 # compile = False # do not torch compile the model
-
-# To tenize:  python data/shakespeare_char/prepare.py
-
-# To train GPT2-S from scratch on a single GPU using training data in 'shakespear_char': python train_.py config/train_par_gpt2-s_scratch.py
-
-# To train GPT2-S from scratch on 2 GPUs using training data in 'shakespear_char': torchrun --standalone --nproc_per_node=2 train_.py config/train_par_gpt2-s_scratch.py
